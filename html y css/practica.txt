@@ -1,0 +1,10 @@
+Practica 1
+https://www.lawebdelprogramador.com/codigo/Java/3858-contar-las-vocales-que-aparece-en-una-frase.html
+PRACTICA 2
+https://www.lawebdelprogramador.com/codigo/Java/3893-cadena-invertida.html
+PRACTICA 3
+http://puntocomnoesunlenguaje.blogspot.com/2016/02/contar-el-numero-de-veces-que-aparece-un-caracter-en-Java.html
+PRACTICA 4
+
+Practica 6,10
+https://algoritmosjavafc.blogspot.com/2013/11/manejo-de-cadenas.html

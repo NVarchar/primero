@@ -1,0 +1,109 @@
+@charset"utf-8";
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 80;
+}
+nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #3ead47;
+}
+.contenido {
+  padding-top: 80px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+.logo1{
+  width: 250px;
+  height: 120px;
+}
+.gris{
+  width: 100%;
+  height: 100%;
+}
+#noticiasT table{
+  width: 100%;
+  height: 700px;
+}
+#noticiasT p{
+
+}
+#noticiasT img{
+  width: 300px;
+
+}
+#recomendacionT table{
+  width: 50%;
+  height: 500px;
+
+}
+#recomendacionT p{
+  text-align: justify;
+}
+body{
+  font-family:"Teko";
+}
+#recomendacionT img{
+  width: 350px;
+  height: 200px;
+}
+#nosotrosT img{
+  width: 65%;
+  height: 350px;
+  border-radius:15px;
+  border:2px solid black;
+}
+#tablaS{
+  width:700px;
+  height: 500px;
+}
+#nosotrosT table{
+  width: 100%;
+  height: 550px;
+}
+#anuncio{
+  width:100%;
+
+}
+@media screen and(max-width:800px){
+  #anuncio{
+  
+  width:100%;
+          }
+
+}
+
+
